@@ -30,19 +30,19 @@
     "check:full": "npm run lint && npm run typecheck && npm run test:coverage && npm run test:security && npm run build && npm run test:e2e"
   },
   "dependencies": {
-    "@opentelemetry/api": "^1.9.1",
+    "@opentelemetry/api": "^1.10.0",
     "busboy": "^1.6.0",
-    "lucide-react": "^0.544.0",
-    "next": "16.3.4",
+    "lucide-react": "^1.61.0",
+    "next": "16.4.2",
     "next-auth": "5.0.0-beta.32",
-    "p-limit": "^7.1.1",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "p-limit": "^7.3.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1",
-    "sanitize-html": "^2.17.7",
+    "sanitize-html": "^2.18.1",
     "yauzl": "^3.2.0",
-    "zod": "^4.1.11"
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.10.0",
@@ -53,7 +53,7 @@
     "@types/node": "^20.19.23",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
-    "@types/sanitize-html": "^2.16.0",
+    "@types/sanitize-html": "^2.16.2",
     "@types/yauzl": "^2.10.3",
     "@vitest/coverage-v8": "^4.0.4",
     "eslint": "^9.38.0",
